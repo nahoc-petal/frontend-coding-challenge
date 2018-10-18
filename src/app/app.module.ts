@@ -14,7 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { ResultsComponent } from './results/results.component';
 
 
@@ -23,7 +23,7 @@ import { ResultsComponent } from './results/results.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    SidebarComponent,
+    DashboardComponent,
     ResultsComponent
   ],
   imports: [
