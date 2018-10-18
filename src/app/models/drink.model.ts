@@ -1,0 +1,35 @@
+export class Drink {
+  ClickUri: string;
+  Excerpt: string;
+  FirstSentences: any;
+  PrintableUri: string;
+  Title: string;
+  UniqueId: string;
+  Uri: string;
+  absentTerms: any;
+  childResults: any;
+  clickUri: string;
+  excerpt: string;
+  excerptHighlights: any;
+  firstSentences: any;
+  firstSentencesHighlights: any;
+  flags: any;
+  hasHtmlVersion: boolean;
+  hasMobileHtmlVersion: boolean;
+  isRecommendation: boolean;
+  isTopResult: boolean;
+  parentResult: any;
+  percentScore: number;
+  printableUri: string;
+  printableUriHighlights: any;
+  rankingInfo: any;
+  rating: number;
+  score: number;
+  summary: any;
+  summaryHighlights: any;
+  title: string;
+  titleHighlights: any;
+  totalNumberOfChildResults: number;
+  uniqueId: string;
+  uri: string;
+}
