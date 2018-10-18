@@ -7,11 +7,13 @@ import {
   MatIconModule,
   MatInputModule,
   MatFormFieldModule,
+  MatSidenavModule,
+  MatCheckboxModule,
 } from '@angular/material';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ResultsComponent } from './results/results.component';
 
@@ -21,7 +23,6 @@ import { ResultsComponent } from './results/results.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
     SidebarComponent,
     ResultsComponent
   ],
@@ -30,9 +31,13 @@ import { ResultsComponent } from './results/results.component';
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
+    MatCheckboxModule,
     MatInputModule,
     MatToolbarModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatSidenavModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

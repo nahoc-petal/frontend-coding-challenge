@@ -1,8 +1,16 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
 .mat-form-field {
   min-width: 300px;
 }
 
 .mat-toolbar-row {
-  height: 84px;
+  height: 68px;
   justify-content: space-between;
 }
